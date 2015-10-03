@@ -13,11 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 header {
 	background-color: #402E2C;
 }
-
 header .uk-container > * {
 	line-height: 50px;
 }
-
 .tm-logo > a {
 	background-image: url(themebutler-logo.svg);
 	background-repeat: no-repeat;
@@ -28,114 +26,93 @@ header .uk-container > * {
 	width: 130px;
 	background-position-y: 13px;
 }
-
 .tm-logo span,
 .tm-logo span a  {
 	color: rgba( 255, 255, 255, .7 );
 	text-decoration: none;
 	font-weight: 300;
 }
-
 .tm-select {
 	color: #fff;
 	width: 200px;
 	cursor: pointer;
 	border-left: 1px solid #4D545C;
 }
-
 .tm-select-text {
 	color: #fff;
 	padding-left: 20px;
 }
-
 .tm-select i {
 	padding: 18px 20px;
 }
-
 .tm-purchase {
 	padding: 0 20px;
 	color: #FCC64C;
 	background-color: #fff;
 }
-
 .tm-purchase:hover,
 .tm-purchase:active {
 	color: #fff;
 	text-decoration: none;
 	background-color: rgba( 255, 255, 255, .6 );
 }
-
 .uk-dropdown {
 	padding: 0 0 10px;
 	margin-top: 0;
 	background-color: #323a45;
 	width: 201px;
 }
-
 .uk-dropdown ul {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
-
 .uk-dropdown ul li {
 	padding: 0 20px;
 	line-height: 45px;
 }
-
 .uk-dropdown ul li a {
 	color: rgba( 255, 255, 255, .6 );
 	text-decoration: none;
 }
-
 .uk-dropdown ul li:hover {
 	background-color: #402E2C;
 	cursor: pointer;
 }
-
 .uk-dropdown ul li:hover a {
 	color: #fff;
 }
 
 /* Phone landscape and smaller */
 @media (max-width: 767px) {
-
 	.tm-logo span,
 	.tm-logo span a {
 		display: inline-block;
 		text-indent: -9999px;
 	}
-
     .tm-logo > a {
     	background-image: url(themebutler-mark.svg);
     	background-size: 30px;
 		height: 50px;
 		width: 30px;
     }
-
     .tm-select {
 		width: 160px;
 	}
-
 	.uk-dropdown {
 		width: 161px;
 	}
-
 }
 
 /* Phone landscape and smaller */
 @media (max-width: 450px) {
-
 	.tm-select-text {
 	  padding-left: 10px;
 	}
-
 	.tm-select i {
 	  padding: 18px 10px;
 	}
-
 	.tm-purchase span {
 		display: none;
 	}
-
 }
