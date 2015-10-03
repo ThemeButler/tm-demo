@@ -45,13 +45,13 @@ header .uk-container > * {
 .tm-select i {
 	padding: 18px 20px;
 }
-.tm-purchase {
+.tm-download {
 	padding: 0 20px;
 	color: #FCC64C;
 	background-color: #fff;
 }
-.tm-purchase:hover,
-.tm-purchase:active {
+.tm-download:hover,
+.tm-download:active {
 	color: #fff;
 	text-decoration: none;
 	background-color: rgba( 255, 255, 255, .6 );
