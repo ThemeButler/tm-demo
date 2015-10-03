@@ -31,7 +31,7 @@ add_action( 'themebutler_init', 'themebutler_load_dependencies', -1 );
 
 function themebutler_load_dependencies() {
 
-	// Load the necessary Butler components.
+	// Load the necessary Beans components.
 	beans_load_api_components( array( 'uikit' ) );
 
 	// Add third party styles and scripts compiler support.
@@ -63,7 +63,7 @@ add_action( 'wp_enqueue_scripts', 'themebutler_euqueue_assets' );
 
 function themebutler_euqueue_assets() {
 
-	$dir = get_template_directory_uri();
+	$dir = get_stylesheet_directory();
 
 	wp_enqueue_style( 'themebutler', $dir . '/style.css' );
 	beans_compile_js_fragments( 'themebutler', $dir . '/js/demo.js', array( 'minify_js' => true ) );
