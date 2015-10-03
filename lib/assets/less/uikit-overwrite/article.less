@@ -1,0 +1,31 @@
+/* Article modifiers
+ ========================================================================== */
+
+.hook-article-meta() {
+
+	.uk-subnav > li,
+
+	&.uk-subnav > li {
+		font-size: @article-meta-font-size;
+	}
+
+}
+
+
+/* Modifiers
+ ========================================================================== */
+
+/* Phone landscape and smaller */
+
+@media (max-width: @breakpoint-mini-max) {
+
+    .uk-article-meta.uk-subnav > li {
+    	width: 100%;
+    }
+
+    .uk-article-meta.uk-subnav > li:before {
+		margin-right: 0;
+		border-left: 0;
+	}
+
+}
