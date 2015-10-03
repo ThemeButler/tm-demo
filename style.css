@@ -1,10 +1,10 @@
 /*
 Theme Name: Demo
-Template: beans
-Theme URI: http://themebutler.com/
+Template: tm-beans
+Theme URI: http://www.themebutler.com/
 Author: Chris Rault
-Author URI: http://themebutler.com/
-Description: Custom Tuxedo based theme for themebutler.com.
+Author URI: http://www.themebutler.com/
+Description: Custom child-theme for http://demo.themebutler.com
 Version: 1.0.0
 BeansVersion: 1.0.0
 Text Domain: tm-demo
@@ -12,7 +12,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 header {
-	background-color: #323a45;
+	background-color: #402E2C;
 }
 
 header .uk-container > * {
