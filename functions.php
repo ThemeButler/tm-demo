@@ -1,5 +1,13 @@
 <?php
 
+// Include Beans
+require_once( get_template_directory() . '/lib/init.php' );
+
+// Enqueue child theme assets
+add_action( 'beans_uikit_enqueue_scripts', 'tbr_enqueue_uikit_assets', 5 );
+
+
+
 add_action( 'admin_menu', 'themebulter_deregister_menu', -1 );
 
 function themebulter_deregister_menu() {
