@@ -35,8 +35,8 @@ function themebutler_load_dependencies() {
 	beans_load_api_components( array( 'uikit' ) );
 
 	// Add third party styles and scripts compiler support.
-	beans_add_component_support( 'wp_styles_compiler' );
-	beans_add_component_support( 'wp_scripts_compiler' );
+	beans_add_api_component_support( 'wp_styles_compiler' );
+	beans_add_api_component_support( 'wp_scripts_compiler' );
 
 }
 
