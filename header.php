@@ -25,7 +25,7 @@
 			$demos = array_reverse( array_slice( wp_get_sites(), 1 ) );
 
 			// Set selected.
-			$selected = get_blog_details( butler_get( 'name', $_GET, $demos[0]['blog_id'] ) );
+			$selected = get_blog_details( beans_get( 'name', $_GET, $demos[0]['blog_id'] ) );
 
 		?>
 		<header role="banner">
