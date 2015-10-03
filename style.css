@@ -54,15 +54,15 @@ header .uk-container > * {
 
 .tm-purchase {
 	padding: 0 20px;
-	color: #fff;
-	background-color: #7AAE40;
+	color: #FCC64C;
+	background-color: #fff;
 }
 
 .tm-purchase:hover,
 .tm-purchase:active {
 	color: #fff;
 	text-decoration: none;
-	background-color: #6B9A37;
+	background-color: rgba( 255, 255, 255, .6 );
 }
 
 .uk-dropdown {
@@ -89,7 +89,7 @@ header .uk-container > * {
 }
 
 .uk-dropdown ul li:hover {
-	background-color: #4D545C;
+	background-color: #402E2C;
 	cursor: pointer;
 }
 
