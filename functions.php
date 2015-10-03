@@ -4,9 +4,9 @@
 require_once( get_template_directory() . '/lib/init.php' );
 
 
-add_action( 'admin_menu', 'themebulter_deregister_menu', -1 );
+add_action( 'admin_menu', 'themebutler_deregister_menu', -1 );
 
-function themebulter_deregister_menu() {
+function themebutler_deregister_menu() {
 
     remove_menu_page( 'upload.php' );
     remove_menu_page( 'edit.php' );
@@ -17,9 +17,9 @@ function themebulter_deregister_menu() {
 }
 
 
-add_action( 'admin_bar_menu', 'themebulter_admin_bar_menu', 999 );
+add_action( 'admin_bar_menu', 'themebutler_admin_bar_menu', 999 );
 
-function themebulter_admin_bar_menu( $wp_admin_bar ) {
+function themebutler_admin_bar_menu( $wp_admin_bar ) {
 
 	$wp_admin_bar->remove_node( 'comments' );
 	$wp_admin_bar->remove_node( 'new-content' );

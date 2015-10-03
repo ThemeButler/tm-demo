@@ -1,16 +1,15 @@
 /*
 Theme Name: Demo
+Description: child-theme for the ThemeButler demo.
+Author: ThemeButler
+Author URI: http://www.themebutler.com
 Template: tm-beans
-Theme URI: http://www.themebutler.com/
-Author: Chris Rault
-Author URI: http://www.themebutler.com/
-Description: Custom child-theme for http://demo.themebutler.com
 Version: 1.0.0
-BeansVersion: 1.0.0
-Text Domain: tm-demo
+Text Domain: m-demo
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
 header {
 	background-color: #402E2C;
 }
