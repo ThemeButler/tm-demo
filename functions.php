@@ -32,7 +32,7 @@ add_action( 'themebutler_init', 'themebutler_load_dependencies', -1 );
 function themebutler_load_dependencies() {
 
 	// Load the necessary Butler components.
-	beans_load_components( array( 'uikit' ) );
+	beans_load_api_components( array( 'uikit' ) );
 
 	// Add third party styles and scripts compiler support.
 	beans_add_component_support( 'wp_styles_compiler' );
